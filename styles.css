@@ -1,0 +1,115 @@
+.header {
+    overflow: hidden;
+    background-color: #FF9933;
+    padding: 20px 10px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header a {
+
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header a.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.main-header .active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.header a:hover {
+    background-color: #ff6600;
+}
+
+.header a.logo {
+    font-family: 'Comfortaa', cursive;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.main-header {
+    overflow: hidden;
+    background-color: #FF9933;
+    padding: 0px 0px;
+    text-align: center;
+
+}
+
+.main-header a {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 100px;
+    border-radius: 4px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.main-header a:hover {
+    background-color: #ff6600;
+}
+
+.searchBar {
+    width: 40%;
+    margin:  auto;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+
+}
+.searchBar input[type=text] {
+    width: 80%;
+    border: none;
+    font-size: 2.5vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48;
+    float: right;
+
+}
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .main-header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
