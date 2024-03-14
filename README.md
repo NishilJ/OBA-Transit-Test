@@ -1,2 +1,2 @@
 # metroll
-A transit data web app built on the OneBusAway API.
+A transit information web app built on the OneBusAway API.
