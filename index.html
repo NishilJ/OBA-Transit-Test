@@ -14,24 +14,28 @@
 	</head>
 
 	<body style="background-color:#FF9933;">
-		<div class="header">
+		<div id="header">
 			<a class="logo">metroll</a>
-			<div class="header-right">
+			<div id="header-right">
 				<a class="active">Home</a>
 				<a>About</a>
 			</div>
 		</div>
 
-		<div class="main-header">
+		<div id="main-header">
 			<a>Trip Planner</a>
 			<a class="active">Find my Bus</a>
 			<a>Routes</a>
 		</div>
 
-		<div class="searchBar">
+		<div id="searchBar">
 			<input type="text" id="stop" placeholder="Enter a Stop Name...">
 			<div id="searchResults" class="dropdown-content"></div>
 			<button onclick="displayStops(document.getElementById('stop').value)" class="material-symbols-outlined" id="stopSearch">search</button>
+		</div>
+
+		<div id="stopInfo">
+			<div id="departureResults" class="dropdown-content"></div>
 		</div>
 
 		<script>
