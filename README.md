@@ -1,3 +1,3 @@
-# metroll
-A transit information web app built on the OneBusAway API.
-https://nishilj.github.io/metroll/
+# OBA Transit App Test
+Testing the OneBusAway API for transit data
+https://nishilj.github.io/obatest/
